@@ -5,4 +5,5 @@ Creating a chat on Laravel
 > composer create-project laravel/laravel your_project_laravel_name
 
 ### .htaccess to setup index.php for Apache
->
+>RewriteEngine On
+>RewriteRule (.*) public/$1
